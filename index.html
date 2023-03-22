@@ -1,50 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>My First HTML Page</title>
+    <link rel="shortcut icon" href="img/HTML5.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduccion al HTML5, programacion Basica ">
+    <meta name="keywords" content="#HTML, ETIQUETAS, CODE, IMAGNEES, P, DV">
+    <meta name="author" content="POR ING. JUANICTO PEÑA">
+    <title>INTRO HTML5</title>
 </head>
+
 <body>
-	<header>
-		<h1>Welcome to my website!</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="about">
-			<h2>About Us</h2>
-			<p>We are a company that specializes in creating amazing websites and web applications.</p>
-		</section>
-		<section id="services">
-			<h2>Our Services</h2>
-			<ul>
-				<li>Web Design</li>
-				<li>Web Development</li>
-				<li>Mobile App Development</li>
-			</ul>
-		</section>
-		<section id="contact">
-			<h2>Contact Us</h2>
-			<form>
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required><br>
+  
+    <h1>BIENVENIDOS A MI PAGINA WEB - JUANCITO PEÑA - </h1>
 
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required><br>
+    <h2>Soy un Subtitulo 2</h2>
+    <h3>Soy un Subtitulo 3 </h3>
+    <h4>Soy un Subtitulo 4 </h4>
+    <h5>Soy un Subtitulo 5 </h5>
+    <h6>Soy un Subtitulo 6 </h6>
 
-				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea><br>
+    <br><br>
+    <hr>
+    <p>NAVEGACION:</p>
 
-				<input type="submit" value="Send">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 My Company. All rights reserved.</p>
-	</footer>
+    <br><br>
+
+    <nav>
+        <a href="http://google.com" target="_blank">Ir a Google</a>
+        <a href="http://youtube.com" target="_blank">Ir a Youtube</a>
+        <a href="contactos.html">Ir a Contactos</a>
+        <a href="http://galeria.html" target="_blank"></a>
+        <a href="index.html">Ir a Home</a>
+    </nav>
+
+    <br><br>
+    <hr>
+    <h2>SOY UN PARRAFO:</h2>
+    <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit.</strong> Placeat, ratione voluptatibus
+        assumenda voluptatum non nesciunt similique voluptate. Labore sed optio ratione, tempore illo a ipsum deserunt
+        harum, provident pariatur sit!
+        Minima velit quidem iste similique eius possimus, dolorum quia libero fuga perferendis voluptates quos quod
+        incidunt dignissimos sed ullam esse debitis harum facilis id vero? Error deleniti quae expedita ducimus.
+        Fuga iure culpa id itaque. Porro quo quasi nemo voluptas nisi doloremque, optio blanditiis voluptate.
+        <br><br>
+        Blanditiis obcaecati id eligendi neque cumque quidem, soluta maiores at aliquam, quo, autem nulla placeat.
+        Consequuntur reprehenderit velit labore accusamus sed eligendi, veniam voluptatum dignissimos harum tempora
+        adipisci voluptate expedita eum cum est esse. Quia temporibus adipisci atque nam dolorum nisi enim similique
+        doloremque. Cumque?
+        Temporibus sit illo voluptate labore, dicta quasi ipsum obcaecati officiis neque. Ex, hic est unde amet
+        reprehenderit voluptatem dicta sint cupiditate quam quas, eaque doloremque soluta laudantium saepe, aliquam
+        aliquid?
+    </p>
+
+
+    <br><br>
+    <hr>
+
+
+    <h2>Apple</h2>
+    <img src="img/apple.jpeg" alt="AQUI VA EL LOGO DE HTML5">
+    <br><br>
+    <h2>Fruits</h2>
+    <img src="img/fruits.jpeg" alt="AQUI VA EL LOGO DE HTML5">
+    <br><br>
+    <h2>Rose</h2>
+    <img src="img/rose.webp" alt="AQUI VA EL LOGO DE HTML5">
+    <br><br>    
+    <hr>
+    <br><br>
+    <h2>USO DE VIDEO LOCAL HTML5</h2>
+
+    <video controls width="860" height="415">
+        <source src="video/video.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <br><br>
+    <h2>Yotube Video</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T6Jh1HoEgzQ" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <hr>
+    <br><br>
+    <h2>USO DE AUDIO EN HTML5 LOCAL</h2>
+
+    <audio controls width="860" height="415">
+        <source src="audio/audio.mp3" type="audio/mp3">
+    </audio>
+    <hr>
+    <br><br>
+    <h2>Tabla con una Lista de Cursos</h2>
+    <br><br>
+    <table style="border: 1px solid; border-collapse: collapse;">
+        <caption>Cursos de Programacion Web</Caption>
+
+        <tr>
+            <th>Cursos</th>
+            <th colspan="1">Costo US$</th>
+            <th>Institucion</th>
+            <th>Profesor</th>
+            <th>Duracion</th>
+        </tr>
+        <tr>
+            <td>HTML5</td>
+            <td>$10</td>
+            <td>https://advisertecnology.com/</td>
+            <td>JUANCITO PEÑA.</td>
+            <td>3 MESES.</td>
+        </tr>
+        <tr>
+            <td>CSS3</td>
+            <td>$10</td>
+            <td>https://advisertecnology.com/</td>
+            <td>JUANCITO PEÑA.</td>
+            <td>3 MESES.</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>$10</td>
+            <td>https://advisertecnology.com/</td>
+            <td>JUANCITO PEÑA.</td>
+            <td>3 MESES.</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>$10</td>
+            <td>https://advisertecnology.com/</td>
+            <td>JUANCITO PEÑA.</td>
+            <td>3 MESES.</td>
+        </tr>
+
+
+        <tr>
+            <td>PHP</td>
+            <td>$10</td>
+            <td>https://advisertecnology.com/</td>
+            <td>JUANCITO PEÑA.</td>
+            <td>3 MESES.</td>
+        </tr>
+        <tr>
+            <td>WORDPRESS</td>
+            <td>$10</td>
+            <td>https://advisertecnology.com/</td>
+            <td>JUANCITO PEÑA.</td>
+            <td>3 MESES.</td>
+        </tr>
+
+    </table>
+
+    <br><br>
+    <hr>
+
+    <h2>Unorganize List</h2>
+
+    <ol>
+        <li>UNO</li>
+        <li>DOS</li>
+        <li>TRES</li>
+        <li>CUATRO</li>
+        <li>CINCO</li>
+    </ol>
+    <hr>
+    <h2>Organize  List</h2>
+    <ul>
+        <li>UNO</li>
+        <li>DOS</li>
+        <li>TRES</li>
+        <li>CUATRO</li>
+        <li>CINCO</li>
+    </ul>
+
+    <hr>
+    <h2>Form</h2>
+    <form>
+        <label for="fname">Nombre: </label><br>
+        <input type="text" id="fname" name="fname" placeholder="Nombre"><br><br>
+
+        <label for="llname">Apellido: </label><br>
+        <input type="text" id="lname" name="lname" placeholder="Escriba su Apellido"><br><br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Masculino</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Femenino</label><br>
+        <br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+        <br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <br><br>
+    <hr>
+    <h2>USO DE MAPA</h2>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.742019206229!2d-69.93111364931902!3d18.450018876081362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea5626d1a527ea5%3A0x91b0bea299033031!2sUniversidad%20Dominicana%20O%26M!5e0!3m2!1ses-419!2sdo!4v1678457781437!5m2!1ses-419!2sdo"
+        width="1200" height="750" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <hr>
+    <br><br>
+
+    <footer>
+        @2023- Alexander Reyes<a href="https://alexreysz.com/" target="_blank">Go to my Page</a>
+    </footer>
+
+
 </body>
+
 </html>
