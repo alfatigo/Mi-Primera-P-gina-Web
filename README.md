@@ -1,3 +1,3 @@
-#Proyecto IHC 
-##HTML
+Proyecto IHC 
+HTML
 author: Alexander Reyes
